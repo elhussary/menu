@@ -1,12 +1,111 @@
 /* General Styling for Menu Page */
 .menu-page header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/public/assets/images/menu-img.jpg);
-  background-size: cover; /* Ensures the image covers the entire header */
+  height: 300px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/public/assets/images/menu-header.jpg");
   background-position: center;
-  height: 50vh;
-  margin: 0;
-  padding: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.menu-page header h2 {
+  font-size: 3rem;
+  color: white !important;
+}
+
+/* Main category tabs */
+#menu-tabs {
+  border-bottom: none;
+}
+
+#menu-tabs .nav-link {
+  color: #198754;
+  font-weight: 500;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  margin: 0 0.5rem;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+
+#menu-tabs .nav-link:hover {
+  background-color: rgba(25, 135, 84, 0.1);
+}
+
+#menu-tabs .nav-link.active {
+  color: white;
+  background-color: #198754;
+}
+
+/* Drink category tabs */
+#drinks-tabs {
+  border-bottom: 1px solid rgba(25, 135, 84, 0.2);
+  margin-bottom: 2rem;
+}
+
+#drinks-tabs .nav-link {
+  color: #198754;
+  font-weight: 500;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin: 0 0.25rem;
+  border-radius: 0;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+#drinks-tabs .nav-link::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #198754;
+  transition: width 0.3s ease;
+}
+
+#drinks-tabs .nav-link:hover::after {
+  width: 100%;
+}
+
+#drinks-tabs .nav-link.active {
+  color: #198754;
+  background-color: transparent;
+}
+
+#drinks-tabs .nav-link.active::after {
+  width: 100%;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  #drinks-tabs {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  #drinks-tabs .nav-link {
+    white-space: nowrap;
+  }
+}
+
+/* Animation classes */
+.menu-section {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .menu-nav {
@@ -197,132 +296,5 @@
 
   .menu-page .card-body {
     padding: 0.5rem;
-  }
-}
-
-/* Font Imports */
-@font-face {
-  font-family: "Comic Boys";
-  src: url("/public/assets/fonts/ComicBoys.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-/* Menu Container */
-.menu-container {
-  max-width: 900px;
-  margin: 0 auto;
-  background-color: #1f3928;
-  color: white;
-  padding: 30px;
-  border-radius: 8px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-  position: relative;
-  overflow: hidden;
-  margin-bottom: 1rem;
-}
-
-/* Header Styles */
-.menu-header {
-  position: relative;
-  z-index: 1;
-  text-align: center;
-  margin-bottom: 1.5rem;
-}
-
-.menu-header img {
-  max-width: 100%;
-  height: auto;
-}
-
-/* Menu Categories Layout */
-.menu-categories {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  position: relative;
-  gap: 20px;
-}
-
-.menu-categories::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 50%;
-  width: 1px;
-  background-color: #918055;
-  transform: translateX(-50%);
-}
-
-/* Category Styles */
-.menu-category {
-  width: 40%;
-  padding: 0 10px;
-}
-
-.category-title {
-  font-family: "Comic Boys", cursive;
-  font-size: 3.2rem;
-  font-weight: bold;
-  display: flex;
-  align-items: center;
-  gap: 0.2rem;
-}
-
-.category-icon img {
-  width: 95px;
-  height: 95px;
-  object-fit: contain;
-}
-
-/* Menu Items Styles */
-.menu-items {
-  font-size: 17px;
-}
-
-.menu-item {
-  display: flex;
-  align-items: center;
-  margin-bottom: 5px;
-  padding: 5px 0;
-}
-
-.item-name {
-  flex-grow: 1;
-}
-
-.item-price {
-  font-weight: bold;
-}
-
-/* Responsive Styles */
-@media (max-width: 768px) {
-  .menu-category {
-    width: 100%;
-  }
-
-  .menu-categories::after {
-    display: none;
-  }
-
-  .category-title {
-    font-size: 1.8rem;
-  }
-
-  .category-icon img {
-    width: 60px;
-    height: 60px;
-  }
-}
-
-/* Small Mobile Devices */
-@media (max-width: 480px) {
-  .menu-container {
-    padding: 15px 10px;
-  }
-
-  .menu-items {
-    font-size: 15px;
   }
 }

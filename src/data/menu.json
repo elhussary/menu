@@ -196,5 +196,8 @@
         "img": "./assets/images/salad/10.png"
       }
     ]
+  },
+  {
+    "category": "Drinks"
   }
 ]
