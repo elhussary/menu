@@ -1,0 +1,171 @@
+{
+  "menuTitle": "Menu",
+  "goHome": "Go Home",
+  "Grills": {
+    "name": "Grills",
+    "items": {
+      "Chicken Tekaa": "Chicken Tekaa",
+      "Meat Tekka": "Meat Tekka",
+      "Iraqi Kabab": "Iraqi Kabab",
+      "Mixed Grill": "Mixed Grill",
+      "Chicken Wings": "Chicken Wings",
+      "Liver": "Liver"
+    }
+  },
+  "Lunch": {
+    "name": "Lunch",
+    "items": {
+      "Rosted Chicken": "Rosted Chicken",
+      "Boiled Chicken": "Boiled Chicken",
+      "Meat Qozi": "Meat Qozi",
+      "Tashreeb": "Tashreeb",
+      "Qawarma": "Qawarma",
+      "Rice": "Rice"
+    },
+    "descriptions": {
+      "Rosted Chicken": "Served with rice, sauce, and daily side dish",
+      "Boiled Chicken": "Served with rice, sauce, and daily side dish",
+      "Meat Qozi": "Served with rice, sauce, and daily side dish",
+      "Tashreeb": "Served with rice",
+      "Qawarma": "Served with salad and soup"
+    }
+  },
+  "Sandwiches": {
+    "name": "Sandwiches",
+    "items": {
+      "Kebab Sandwich": "Kebab Sandwich",
+      "Chicken Sandwich": "Chicken Sandwich",
+      "Meat Sandwich": "Meat Sandwich",
+      "Liver Sandwich": "Liver Sandwich"
+    }
+  },
+  "Appetizers": {
+    "name": "Appetizers",
+    "items": {
+      "Mutabbal": "Mutabbal",
+      "Hummus": "Hummus",
+      "Batenjaneye": "Batenjaneye",
+      "Damashkeya": "Damashkeya",
+      "Beetroot": "Beetroot",
+      "Soup": "Soup"
+    }
+  },
+  "Salad": {
+    "name": "Salad",
+    "items": {
+      "Beetroot Salad": "Beetroot Salad",
+      "Greek Salad": "Greek Salad",
+      "Fatoush": "Fatoush",
+      "Tabouli": "Tabouli",
+      "Watercress Salad": "Watercress Salad",
+      "Arabian Salad": "Arabian Salad"
+    }
+  },
+  "Drinks": {
+    "name": "Drinks",
+    "Fresh Juices": {
+      "name": "Fresh Juices",
+      "items": {
+        "Orange": "Orange",
+        "Lemon": "Lemon",
+        "Watermelon": "Watermelon",
+        "Avocado": "Avocado",
+        "Strawberry": "Strawberry",
+        "Mango": "Mango",
+        "Pineapple": "Pineapple",
+        "Sweet Melon": "Sweet Melon",
+        "Pomegranate": "Pomegranate",
+        "Banana Milk": "Banana Milk"
+      }
+    },
+    "Mojitos": {
+      "name": "Mojitos",
+      "items": {
+        "Strawberry": "Strawberry",
+        "Blueberry": "Blueberry",
+        "Mix Berries": "Mix Berries",
+        "Passion Fruits": "Passion Fruits",
+        "Blue Moon": "Blue Moon",
+        "Blue Hawaii": "Blue Hawaii",
+        "Watermelon": "Watermelon",
+        "Classic Mojito": "Classic Mojito"
+      }
+    },
+    "Milkshakes": {
+      "name": "Milkshakes",
+      "items": {
+        "Vanilla": "Vanilla",
+        "Chocolate": "Chocolate",
+        "Oreo": "Oreo",
+        "Kinder": "Kinder",
+        "Pistachio": "Pistachio",
+        "KitKat": "KitKat",
+        "Strawberry": "Strawberry",
+        "Mango": "Mango"
+      }
+    },
+    "Cocktails": {
+      "name": "Cocktails",
+      "items": {
+        "Mix Fruit": "Mix Fruit",
+        "Mango Magic": "Mango Magic",
+        "Triple Cocktail": "Triple Cocktail",
+        "Pina Colada": "Pina Colada",
+        "Tropical": "Tropical",
+        "Crystal": "Crystal",
+        "Mango Paradise": "Mango Paradise",
+        "Relax": "Relax",
+        "Jamaica": "Jamaica",
+        "Protein": "Protein",
+        "Triple Colada": "Triple Colada"
+      }
+    },
+    "Hot Drinks": {
+      "name": "Hot Drinks",
+      "items": {
+        "Espresso Single": "Espresso Single",
+        "Espresso Double": "Espresso Double",
+        "Amercano": "Amercano",
+        "Cappuccino": "Cappuccino",
+        "Cortado": "Cortado",
+        "Hot Chocolate": "Hot Chocolate",
+        "Turkish Coffee": "Turkish Coffee",
+        "Tea": "Tea"
+      }
+    },
+    "Salad Ice Cream": {
+      "name": "Salad Ice Cream",
+      "items": {
+        "Classic Salad": "Classic Salad",
+        "Special Salad": "Special Salad",
+        "Chocolamou": "Chocolamou",
+        "Twtty Fruti": "Twtty Fruti",
+        "Mix Ice Cream": "Mix Ice Cream",
+        "Emprator Special": "Emprator Special"
+      }
+    },
+    "Latte cold / Hot": {
+      "name": "Latte cold / Hot",
+      "items": {
+        "Spanish Latte": "Spanish Latte",
+        "Caramel Latte": "Caramel Latte",
+        "Huzelnut Latte": "Huzelnut Latte",
+        "Pistachio Latte": "Pistachio Latte",
+        "Mocha Latte": "Mocha Latte",
+        "Cafe Latte": "Cafe Latte",
+        "Classic Latte": "Classic Latte",
+        "Rose": "Rose"
+      }
+    },
+    "Crepe": {
+      "name": "Crepe",
+      "items": {
+        "Nutella": "Nutella",
+        "Lotus": "Lotus",
+        "Pistachio": "Pistachio",
+        "Fettuccini": "Fettuccini",
+        "Special Crepe": "Special Crepe"
+      }
+    }
+  }
+}

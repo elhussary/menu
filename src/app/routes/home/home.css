@@ -1,0 +1,53 @@
+/* Header Styles */
+.home-page header {
+  background-image: url(/public/assets/images/header-img.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+header h1 {
+  font-size: 5rem;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  header h1 {
+    font-size: 4rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  header h1 {
+    font-size: 3rem;
+  }
+}
+
+/* Overlay Styles */
+.home-page header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.645); /* Black overlay with 50% opacity */
+  z-index: 1;
+}
+
+.home-page header .container {
+  position: relative;
+  z-index: 2; 
+}
+.custom-image{
+  width: 60%;
+}
+@media (max-width: 884px) { /* Medium screens (md) */
+  .custom-image-container {
+    text-align: center !important; /* Center the image on md and larger screens */
+  }
+  .custom-image {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

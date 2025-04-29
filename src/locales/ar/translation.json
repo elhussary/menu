@@ -1,0 +1,171 @@
+{
+  "menuTitle": "القائمة",
+  "goHome": "الرئيسية",
+  "Grills": {
+    "name": "الشوايات",
+    "items": {
+      "Chicken Tekaa": "دجاج تكه",
+      "Meat Tekka": "لحم تكه",
+      "Iraqi Kabab": "كباب عراقي",
+      "Mixed Grill": "مشاوي مشكل",
+      "Chicken Wings": "أجنحة دجاج",
+      "Liver": "كبدة"
+    }
+  },
+  "Lunch": {
+    "name": "الغداء",
+    "items": {
+      "Rosted Chicken": "دجاج محمر",
+      "Boiled Chicken": "دجاج مسلوق",
+      "Meat Qozi": "قوزي لحم",
+      "Tashreeb": "تشريب",
+      "Qawarma": "قاورما",
+      "Rice": "أرز"
+    },
+    "descriptions": {
+      "Rosted Chicken": "تقدم مع الأرز و مرق و الطبق اليومي",
+      "Boiled Chicken": "تقدم مع الأرز و مرق و الطبق اليومي",
+      "Meat Qozi": "تقدم مع الأرز و مرق و الطبق اليومي",
+      "Tashreeb": "تقدم مع الرز",
+      "Qawarma": "تقدم مع السلطة والشوربة"
+    }
+  },
+  "Sandwiches": {
+    "name": "ساندويتشات",
+    "items": {
+      "Kebab Sandwich": "ساندويتش كباب",
+      "Chicken Sandwich": "ساندويتش دجاج",
+      "Meat Sandwich": "ساندويتش لحم",
+      "Liver Sandwich": "ساندويتش كبدة"
+    }
+  },
+  "Appetizers": {
+    "name": "مقبلات",
+    "items": {
+      "Mutabbal": "متبل",
+      "Hummus": "حمص",
+      "Batenjaneye": "باتنجانية",
+      "Damashkeya": "دمشقية",
+      "Beetroot": "شمندر",
+      "Soup": "شوربة"
+    }
+  },
+  "Salad": {
+    "name": "سلطات",
+    "items": {
+      "Beetroot Salad": "سلطة شمندر",
+      "Greek Salad": "سلطة يونانية",
+      "Fatoush": "فتوش",
+      "Tabouli": "تبولة",
+      "Watercress Salad": "سلطة جرجير",
+      "Arabian Salad": "سلطة عربية"
+    }
+  },
+  "Drinks": {
+    "name": "المشروبات",
+    "Fresh Juices": {
+      "name": "عصائر طازجة",
+      "items": {
+        "Orange": "برتقال",
+        "Lemon": "ليمون",
+        "Watermelon": "بطيخ",
+        "Avocado": "أفوكادو",
+        "Strawberry": "فراولة",
+        "Mango": "مانجو",
+        "Pineapple": "أناناس",
+        "Sweet Melon": "شمام",
+        "Pomegranate": "رمان",
+        "Banana Milk": "موز بالحليب"
+      }
+    },
+    "Mojitos": {
+      "name": "موجيتو",
+      "items": {
+        "Strawberry": "فراولة",
+        "Blueberry": "توت أزرق",
+        "Mix Berries": "توت مشكل",
+        "Passion Fruits": "باشن فروت",
+        "Blue Moon": "بلو مون",
+        "Blue Hawaii": "بلو هاواي",
+        "Watermelon": "بطيخ",
+        "Classic Mojito": "موجيتو كلاسيك"
+      }
+    },
+    "Milkshakes": {
+      "name": "ميلك شيك",
+      "items": {
+        "Vanilla": "فانيلا",
+        "Chocolate": "شوكولاتة",
+        "Oreo": "أوريو",
+        "Kinder": "كيندر",
+        "Pistachio": "فستق",
+        "KitKat": "كيت كات",
+        "Strawberry": "فراولة",
+        "Mango": "مانجو"
+      }
+    },
+    "Cocktails": {
+      "name": "كوكتيلات",
+      "items": {
+        "Mix Fruit": "كوكتيل فواكه",
+        "Mango Magic": "سحر المانجو",
+        "Triple Cocktail": "كوكتيل ثلاثي",
+        "Pina Colada": "بينا كولادا",
+        "Tropical": "استوائي",
+        "Crystal": "كريستال",
+        "Mango Paradise": "جنان المانجو",
+        "Relax": "استرخاء",
+        "Jamaica": "جامايكا",
+        "Protein": "بروتين",
+        "Triple Colada": "ثلاثي كولادا"
+      }
+    },
+    "Hot Drinks": {
+      "name": "مشروبات ساخنة",
+      "items": {
+        "Espresso Single": "إسبريسو مفرد",
+        "Espresso Double": "إسبريسو مزدوج",
+        "Amercano": "أمريكانو",
+        "Cappuccino": "كابتشينو",
+        "Cortado": "كورادو",
+        "Hot Chocolate": "شوكولاتة ساخنة",
+        "Turkish Coffee": "قهوة تركية",
+        "Tea": "شاي"
+      }
+    },
+    "Salad Ice Cream": {
+      "name": "آيس كريم سلطة",
+      "items": {
+        "Classic Salad": "سلطة كلاسيكية",
+        "Special Salad": "سلطة خاصة",
+        "Chocolamou": "شوكولا مو",
+        "Twtty Fruti": "تويتي فروتي",
+        "Mix Ice Cream": "آيس كريم مشكل",
+        "Emprator Special": "إمبراطور خاص"
+      }
+    },
+    "Latte cold / Hot": {
+      "name": "لاتيه بارد / ساخن",
+      "items": {
+        "Spanish Latte": "اسبانيش لاتيه",
+        "Caramel Latte": "كافيه لاتيه كراميل",
+        "Huzelnut Latte": "لاتيه بالبندق",
+        "Pistachio Latte": "لاتيه بالفستق",
+        "Mocha Latte": "موكا لاتيه",
+        "Cafe Latte": "كافيه لاتيه",
+        "Classic Latte": "لاتيه كلاسيكي",
+        "Rose": "وردة"
+      }
+    },
+    "Crepe": {
+      "name": "كريب",
+      "items": {
+        "Nutella": "نوتيلا",
+        "Lotus": "لوتس",
+        "Pistachio": "فستق",
+        "Fettuccini": "فيتوتشيني",
+        "Special Crepe": "كريب خاص"
+      }
+    }
+  }
+}

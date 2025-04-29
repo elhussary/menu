@@ -1,0 +1,200 @@
+[
+  {
+    "category": "Grills",
+    "items": [
+      {
+        "id": 1,
+        "name": "Chicken Tekaa",
+        "price": "65 AED",
+        "img": "./assets/images/grills/1.png"
+      },
+      {
+        "id": 2,
+        "name": "Meat Tekka",
+        "price": "75 AED",
+        "img": "./assets/images/grills/2.png"
+      },
+      {
+        "id": 3,
+        "name": "Iraqi Kabab",
+        "price": "75 AED",
+        "img": "./assets/images/grills/3.png"
+      },
+      {
+        "id": 4,
+        "name": "Mixed Grill",
+        "price": "93 AED",
+        "img": "./assets/images/grills/4.png"
+      },
+      {
+        "id": 5,
+        "name": "Chicken Wings",
+        "price": "58 AED",
+        "img": "./assets/images/grills/5.png"
+      },
+      {
+        "id": 6,
+        "name": "Liver",
+        "price": "68 AED",
+        "img": "./assets/images/grills/6.png"
+      }
+    ]
+  },
+  {
+    "category": "Lunch",
+    "items": [
+      {
+        "id": 1,
+        "name": "Rosted Chicken",
+        "description": "Served with rice, sauce, and daily side dish",
+        "price": "65 AED",
+        "img": "./assets/images/lunch/1.png"
+      },
+      {
+        "id": 2,
+        "name": "Boiled Chicken",
+        "description": "Served with rice, sauce, and daily side dish",
+        "price": "65 AED",
+        "img": "./assets/images/lunch/3.png"
+      },
+      {
+        "id": 3,
+        "name": "Meat Qozi",
+        "description": "Served with rice, sauce, and daily side dish",
+        "price": "75 AED",
+        "img": "./assets/images/lunch/2.png"
+      },
+      {
+        "id": 4,
+        "name": "Tashreeb",
+        "description": "Served with rice",
+        "price": "65 AED",
+        "img": "./assets/images/lunch/5.png"
+      },
+      {
+        "id": 5,
+        "name": "Qawarma",
+        "description": "Served with salad and soup",
+        "price": "65 AED",
+        "img": "./assets/images/lunch/4.png"
+      },
+      {
+        "id": 6,
+        "name": "Rice",
+        "price": "15 AED",
+        "img": "./assets/images/appetizers/1.png"
+      }
+    ]
+  },
+  {
+    "category": "Sandwiches",
+    "items": [
+      {
+        "id": 1,
+        "name": "Kebab Sandwich",
+        "price": "25 AED",
+        "img": "./assets/images/sandwiches/1.png"
+      },
+      {
+        "id": 2,
+        "name": "Chicken Sandwich",
+        "price": "20 AED",
+        "img": "./assets/images/sandwiches/2.png"
+      },
+      {
+        "id": 3,
+        "name": "Meat Sandwich",
+        "price": "25 AED",
+        "img": "./assets/images/sandwiches/3.png"
+      },
+      {
+        "id": 4,
+        "name": "Liver Sandwich",
+        "price": "23 AED",
+        "img": "./assets/images/sandwiches/4.png"
+      }
+    ]
+  },
+  {
+    "category": "Appetizers",
+    "items": [
+      {
+        "id": 1,
+        "name": "Mutabbal",
+        "price": "15 AED",
+        "img": "./assets/images/appetizers/3.png"
+      },
+      {
+        "id": 2,
+        "name": "Hummus",
+        "price": "15 AED",
+        "img": "./assets/images/appetizers/2.png"
+      },
+      {
+        "id": 3,
+        "name": "Batenjaneye",
+        "price": "15 AED",
+        "img": "./assets/images/salad/4.png"
+      },
+      {
+        "id": 4,
+        "name": "Damashkeya",
+        "price": "15 AED",
+        "img": "./assets/images/salad/3.png"
+      },
+      {
+        "id": 5,
+        "name": "Beetroot",
+        "price": "15 AED",
+        "img": "./assets/images/salad/2.png"
+      },
+      {
+        "id": 6,
+        "name": "Soup",
+        "price": "10 AED",
+        "img": "./assets/images/appetizers/4.png"
+      }
+    ]
+  },
+  {
+    "category": "Salad",
+    "items": [
+      {
+        "id": 1,
+        "name": "Beetroot Salad",
+        "price": "27 AED",
+        "img": "./assets/images/salad/5.png"
+      },
+      {
+        "id": 2,
+        "name": "Greek Salad",
+        "price": "30 AED",
+        "img": "./assets/images/salad/6.png"
+      },
+      {
+        "id": 3,
+        "name": "Fatoush",
+        "price": "25 AED",
+        "img": "./assets/images/salad/7.png"
+      },
+      {
+        "id": 4,
+        "name": "Tabouli",
+        "price": "25 AED",
+        "img": "./assets/images/salad/8.png"
+      },
+      {
+        "id": 5,
+        "name": "Watercress Salad",
+        "price": "27 AED",
+        "img": "./assets/images/salad/9.png"
+      },
+      {
+        "id": 6,
+        "name": "Arabian Salad",
+        "price": "28 AED",
+        "img": "./assets/images/salad/10.png"
+      }
+    ]
+  }
+]

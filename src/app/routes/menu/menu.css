@@ -1,0 +1,328 @@
+/* General Styling for Menu Page */
+.menu-page header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/public/assets/images/menu-img.jpg);
+  background-size: cover; /* Ensures the image covers the entire header */
+  background-position: center;
+  height: 50vh;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.menu-nav-btn {
+  padding: 5px 10px;
+  font-size: 13px;
+  margin: 0 10px;
+  background-color: #f8f9fa;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.menu-nav-btn:hover {
+  background-color: #e9ecef;
+}
+
+.menu-nav-btn.active {
+  background-color: #28a745;
+  color: white;
+}
+
+/* Bootstrap Tabs Styling */
+.menu-page .nav-tabs {
+  justify-content: center;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.menu-page .nav-item .nav-link {
+  color: #28a745; /* Green color */
+}
+
+.menu-page .nav-item .nav-link.active {
+  background-color: #28a745;
+  color: white;
+}
+
+.menu-page .nav-link:hover {
+  background-color: #e9ecef; /* Light hover effect */
+}
+
+/* Menu Section Animation */
+.menu-section {
+  opacity: 0; /* Initially hidden */
+  animation: fadeIn 0.5s ease-in-out forwards; /* Fade-in effect */
+}
+
+/* Styling for Cards */
+.card-img-container {
+  width: 180px;
+  height: 120px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.card-img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.menu-page .card-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.menu-page .card-text {
+  font-size: 0.9rem;
+}
+
+.menu-page .fs-5 {
+  font-size: 1rem; /* Price */
+}
+
+.menu-page .card-body {
+  padding: 1rem;
+}
+
+/* Responsive Styling */
+@media (min-width: 768px) {
+  .menu-page h1 {
+    font-size: 3rem !important; /* Smaller font */
+    text-align: center;
+  }
+
+  .menu-page .nav-link {
+    font-size: 16px !important;
+    padding: 5px 20px;
+  }
+
+  .menu-page .menu-section h2 {
+    font-size: 1.4rem;
+  }
+
+  .menu-page .card-title {
+    font-size: 1.5rem !important;
+  }
+
+  .menu-page .card-text {
+    font-size: 1rem !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .menu-page h1 {
+    font-size: 3rem !important; /* Smaller font */
+  }
+
+  .menu-page .nav-link {
+    font-size: 18px !important;
+    padding: 5px 20px;
+  }
+
+  .menu-page .menu-section h2 {
+    font-size: 1.4rem;
+  }
+
+  .menu-page .card-title {
+    font-size: 1rem !important;
+  }
+
+  .menu-page .card-text {
+    font-size: 1rem !important;
+  }
+
+  .menu-page .fs-5 {
+    font-size: 0.9rem;
+  }
+
+  .card-img-container {
+    width: 150px;
+    height: 100px;
+  }
+
+  .menu-page .card-body {
+    padding: 0.8rem;
+  }
+
+  .menu-page .col-md-6 {
+    flex: 0 0 100%; /* Stack cards */
+    max-width: 100%;
+  }
+}
+.mnue-text {
+  font-size: 40px !important;
+}
+.homeMnue {
+  padding: 3px 24px !important;
+}
+/* Small Screens (Mobile) */
+@media (max-width: 430px) {
+  .menu-page h1 {
+    font-size: 1rem;
+  }
+
+  .menu-page .nav-link {
+    font-size: 10px !important;
+    padding: 5px 12px;
+  }
+
+  .menu-page .menu-section h2 {
+    font-size: 1.2rem;
+  }
+
+  .menu-page .card-title {
+    font-size: 1.1rem !important;
+  }
+
+  .menu-page .card-text {
+    font-size: 0.9rem;
+  }
+
+  .menu-page .fs-5 {
+    font-size: 0.8rem;
+  }
+
+  .card-img-container {
+    width: 120px;
+    height: 80px;
+  }
+
+  .menu-page .card-body {
+    padding: 0.5rem;
+  }
+}
+
+/* Font Imports */
+@font-face {
+  font-family: "Comic Boys";
+  src: url("/public/assets/fonts/ComicBoys.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Menu Container */
+.menu-container {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #1f3928;
+  color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+/* Header Styles */
+.menu-header {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.menu-header img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Menu Categories Layout */
+.menu-categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: relative;
+  gap: 20px;
+}
+
+.menu-categories::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 1px;
+  background-color: #918055;
+  transform: translateX(-50%);
+}
+
+/* Category Styles */
+.menu-category {
+  width: 40%;
+  padding: 0 10px;
+}
+
+.category-title {
+  font-family: "Comic Boys", cursive;
+  font-size: 3.2rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.category-icon img {
+  width: 95px;
+  height: 95px;
+  object-fit: contain;
+}
+
+/* Menu Items Styles */
+.menu-items {
+  font-size: 17px;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  padding: 5px 0;
+}
+
+.item-name {
+  flex-grow: 1;
+}
+
+.item-price {
+  font-weight: bold;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .menu-category {
+    width: 100%;
+  }
+
+  .menu-categories::after {
+    display: none;
+  }
+
+  .category-title {
+    font-size: 1.8rem;
+  }
+
+  .category-icon img {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+/* Small Mobile Devices */
+@media (max-width: 480px) {
+  .menu-container {
+    padding: 15px 10px;
+  }
+
+  .menu-items {
+    font-size: 15px;
+  }
+}

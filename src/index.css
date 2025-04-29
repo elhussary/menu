@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100..900&display=swap");
+
+body {
+  font-family: "Noto Kufi Arabic", serif;
+  font-weight: 400; /* Default weight */
+  font-style: normal;
+}
+
+.whatsapp-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  width: 50px; /* Adjusted size */
+  height: 50px; /* Adjusted size */
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  background-color: #25d366;
+  border-radius: 50%; /* Makes it circular */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  text-decoration: none; /* Ensures no text decoration */
+}
+
+.whatsapp-btn i {
+  color: white;
+  font-size: 28px; /* Adjust icon size */
+  margin: 0;
+  padding: 0;
+  line-height: 1; /* Ensures the icon stays vertically aligned */
+}
+
+.whatsapp-btn:hover {
+  background-color: #22c35e;
+  transform: scale(1.1); /* Adds a hover scaling effect */
+  text-decoration: none; /* Keeps the link styling clean */
+}
