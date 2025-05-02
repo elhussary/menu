@@ -1,11 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100..900&display=swap");
-
-body {
-  font-family: "Noto Kufi Arabic", serif;
-  font-weight: 400; /* Default weight */
-  font-style: normal;
-}
-
 .whatsapp-btn {
   position: fixed;
   bottom: 20px;

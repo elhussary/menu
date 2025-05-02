@@ -9,7 +9,6 @@
 }
 
 .menu-page header h2 {
-  font-size: 3rem;
   color: white !important;
 }
 
@@ -297,4 +296,10 @@
   .menu-page .card-body {
     padding: 0.5rem;
   }
+}
+
+.menu-page {
+  font-family: "Noto Kufi Arabic", serif !important;
+  font-weight: 400; /* Default weight */
+  font-style: normal;
 }

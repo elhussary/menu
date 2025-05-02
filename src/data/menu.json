@@ -198,6 +198,433 @@
     ]
   },
   {
-    "category": "Drinks"
+    "category": "Drinks",
+    "items": [],
+    "subcategories": [
+      {
+        "category": "Fresh Juices",
+        "items": [
+          {
+            "id": 1,
+            "name": "Orange",
+            "price": "19 AED",
+            "img": "./assets/images/drinks/fresh-juices/orange.png"
+          },
+          {
+            "id": 2,
+            "name": "Lemon",
+            "price": "19 AED",
+            "img": "./assets/images/drinks/fresh-juices/lemon.png"
+          },
+          {
+            "id": 3,
+            "name": "Watermelon",
+            "price": "19 AED",
+            "img": "./assets/images/drinks/fresh-juices/watermelon.png"
+          },
+          {
+            "id": 4,
+            "name": "Avocado",
+            "price": "25 AED",
+            "img": "./assets/images/drinks/fresh-juices/avocado.png"
+          },
+          {
+            "id": 5,
+            "name": "Strawberry",
+            "price": "19 AED",
+            "img": "./assets/images/drinks/fresh-juices/strawberry.png"
+          },
+          {
+            "id": 6,
+            "name": "Mango",
+            "price": "19 AED",
+            "img": "./assets/images/drinks/fresh-juices/mango.png"
+          },
+          {
+            "id": 7,
+            "name": "Pineapple",
+            "price": "19 AED",
+            "img": "./assets/images/drinks/fresh-juices/pineapple.png"
+          },
+          {
+            "id": 8,
+            "name": "Sweet Melon",
+            "price": "25 AED",
+            "img": "./assets/images/drinks/fresh-juices/sweet-melon.png"
+          },
+          {
+            "id": 9,
+            "name": "Pomegranate",
+            "price": "25 AED",
+            "img": "./assets/images/drinks/fresh-juices/pomegranate.png"
+          },
+          {
+            "id": 10,
+            "name": "Banana Milk",
+            "price": "20 AED",
+            "img": "./assets/images/drinks/fresh-juices/banana-milk.png"
+          }
+        ]
+      },
+      {
+        "category": "Mojitos",
+        "items": [
+          {
+            "id": 1,
+            "name": "Strawberry",
+            "price": "20 AED",
+            "img": "./assets/images/drinks/mojitos/strawberry.png"
+          },
+          {
+            "id": 2,
+            "name": "Blueberry",
+            "price": "20 AED",
+            "img": "./assets/images/drinks/mojitos/blueberry.png"
+          },
+          {
+            "id": 3,
+            "name": "Mix Berries",
+            "price": "20 AED",
+            "img": "./assets/images/drinks/mojitos/mix-berries.png"
+          },
+          {
+            "id": 4,
+            "name": "Passion Fruits",
+            "price": "20 AED",
+            "img": "./assets/images/drinks/mojitos/passion-fruits.png"
+          },
+          {
+            "id": 5,
+            "name": "Blue Moon",
+            "price": "20 AED",
+            "img": "./assets/images/drinks/mojitos/blue-moon.png"
+          },
+          {
+            "id": 6,
+            "name": "Blue Hawaii",
+            "price": "20 AED",
+            "img": "./assets/images/drinks/mojitos/blue-hawaii.png"
+          },
+          {
+            "id": 7,
+            "name": "Watermelon",
+            "price": "20 AED",
+            "img": "./assets/images/drinks/mojitos/watermelon.png"
+          },
+          {
+            "id": 8,
+            "name": "Classic Mojito",
+            "price": "20 AED",
+            "img": "./assets/images/drinks/mojitos/classic-mojito.png"
+          }
+        ]
+      },
+      {
+        "category": "Milkshakes",
+        "items": [
+          {
+            "id": 1,
+            "name": "Vanilla",
+            "price": "20 AED",
+            "img": "./assets/images/drinks/milkshakes/vanilla.png"
+          },
+          {
+            "id": 2,
+            "name": "Chocolate",
+            "price": "20 AED",
+            "img": "./assets/images/drinks/milkshakes/chocolate.png"
+          },
+          {
+            "id": 3,
+            "name": "Oreo",
+            "price": "20 AED",
+            "img": "./assets/images/drinks/milkshakes/oreo.png"
+          },
+          {
+            "id": 4,
+            "name": "Kinder",
+            "price": "20 AED",
+            "img": "./assets/images/drinks/milkshakes/kinder.png"
+          },
+          {
+            "id": 5,
+            "name": "Pistachio",
+            "price": "20 AED",
+            "img": "./assets/images/drinks/milkshakes/pistachio.png"
+          },
+          {
+            "id": 6,
+            "name": "KitKat",
+            "price": "20 AED",
+            "img": "./assets/images/drinks/milkshakes/kitkat.png"
+          },
+          {
+            "id": 7,
+            "name": "Strawberry",
+            "price": "20 AED",
+            "img": "./assets/images/drinks/milkshakes/strawberry.png"
+          },
+          {
+            "id": 8,
+            "name": "Mango",
+            "price": "20 AED",
+            "img": "./assets/images/drinks/milkshakes/mango.png"
+          }
+        ]
+      },
+      {
+        "category": "Cocktails",
+        "items": [
+          {
+            "id": 1,
+            "name": "Mix Fruit",
+            "price": "22 AED",
+            "img": "./assets/images/drinks/cocktails/mix-fruit.png"
+          },
+          {
+            "id": 2,
+            "name": "Mango Magic",
+            "price": "25 AED",
+            "img": "./assets/images/drinks/cocktails/mango-magic.png"
+          },
+          {
+            "id": 3,
+            "name": "Triple Cocktail",
+            "price": "25 AED",
+            "img": "./assets/images/drinks/cocktails/triple-cocktail.png"
+          },
+          {
+            "id": 4,
+            "name": "Pina Colada",
+            "price": "22 AED",
+            "img": "./assets/images/drinks/cocktails/pina-colada.png"
+          },
+          {
+            "id": 5,
+            "name": "Tropical",
+            "price": "22 AED",
+            "img": "./assets/images/drinks/cocktails/tropical.png"
+          },
+          {
+            "id": 6,
+            "name": "Crystal",
+            "price": "22 AED",
+            "img": "./assets/images/drinks/cocktails/crystal.png"
+          },
+          {
+            "id": 7,
+            "name": "Mango Paradise",
+            "price": "25 AED",
+            "img": "./assets/images/drinks/cocktails/mango-paradise.png"
+          },
+          {
+            "id": 8,
+            "name": "Relax",
+            "price": "22 AED",
+            "img": "./assets/images/drinks/cocktails/relax.png"
+          },
+          {
+            "id": 9,
+            "name": "Jamaica",
+            "price": "22 AED",
+            "img": "./assets/images/drinks/cocktails/jamaica.png"
+          },
+          {
+            "id": 10,
+            "name": "Protein",
+            "price": "25 AED",
+            "img": "./assets/images/drinks/cocktails/protein.png"
+          },
+          {
+            "id": 11,
+            "name": "Triple Colada",
+            "price": "25 AED",
+            "img": "./assets/images/drinks/cocktails/triple-colada.png"
+          }
+        ]
+      },
+      {
+        "category": "Hot Drinks",
+        "items": [
+          {
+            "id": 1,
+            "name": "Espresso Single",
+            "price": "12 AED",
+            "img": "./assets/images/drinks/hot-drinks/espresso-single.png"
+          },
+          {
+            "id": 2,
+            "name": "Espresso Double",
+            "price": "16 AED",
+            "img": "./assets/images/drinks/hot-drinks/espresso-double.png"
+          },
+          {
+            "id": 3,
+            "name": "Amercano",
+            "price": "18 AED",
+            "img": "./assets/images/drinks/hot-drinks/amercano.png"
+          },
+          {
+            "id": 4,
+            "name": "Cappuccino",
+            "price": "22 AED",
+            "img": "./assets/images/drinks/hot-drinks/cappuccino.png"
+          },
+          {
+            "id": 5,
+            "name": "Cortado",
+            "price": "20 AED",
+            "img": "./assets/images/drinks/hot-drinks/cortado.png"
+          },
+          {
+            "id": 6,
+            "name": "Hot Chocolate",
+            "price": "20 AED",
+            "img": "./assets/images/drinks/hot-drinks/hot-chocolate.png"
+          },
+          {
+            "id": 7,
+            "name": "Turkish Coffee",
+            "price": "15 AED",
+            "img": "./assets/images/drinks/hot-drinks/turkish-coffee.png"
+          },
+          {
+            "id": 8,
+            "name": "Tea",
+            "price": "10 AED",
+            "img": "./assets/images/drinks/hot-drinks/tea.png"
+          }
+        ]
+      },
+      {
+        "category": "Salad Ice Cream",
+        "items": [
+          {
+            "id": 1,
+            "name": "Classic Salad",
+            "price": "25 AED",
+            "img": "./assets/images/drinks/salad-ice-cream/classic-salad.png"
+          },
+          {
+            "id": 2,
+            "name": "Special Salad",
+            "price": "35 AED",
+            "img": "./assets/images/drinks/salad-ice-cream/special-salad.png"
+          },
+          {
+            "id": 3,
+            "name": "Chocolamou",
+            "price": "25 AED",
+            "img": "./assets/images/drinks/salad-ice-cream/chocolamou.png"
+          },
+          {
+            "id": 4,
+            "name": "Twtty Fruti",
+            "price": "25 AED",
+            "img": "./assets/images/drinks/salad-ice-cream/twtty-fruti.png"
+          },
+          {
+            "id": 5,
+            "name": "Mix Ice Cream",
+            "price": "25 AED",
+            "img": "./assets/images/drinks/salad-ice-cream/mix-ice-cream.png"
+          },
+          {
+            "id": 6,
+            "name": "Emprator Special",
+            "price": "35 AED",
+            "img": "./assets/images/drinks/salad-ice-cream/emprator-special.png"
+          }
+        ]
+      },
+      {
+        "category": "Latte Cold / Hot",
+        "items": [
+          {
+            "id": 1,
+            "name": "Spanish Latte",
+            "price": "22 AED",
+            "img": "./assets/images/drinks/latte-cold-hot/spanish-latte.png"
+          },
+          {
+            "id": 2,
+            "name": "Caramel Latte",
+            "price": "22 AED",
+            "img": "./assets/images/drinks/latte-cold-hot/caramel-latte.png"
+          },
+          {
+            "id": 3,
+            "name": "Huzelnut Latte",
+            "price": "22 AED",
+            "img": "./assets/images/drinks/latte-cold-hot/huzelnut-latte.png"
+          },
+          {
+            "id": 4,
+            "name": "Pistachio Latte",
+            "price": "22 AED",
+            "img": "./assets/images/drinks/latte-cold-hot/pistachio-latte.png"
+          },
+          {
+            "id": 5,
+            "name": "Mocha Latte",
+            "price": "22 AED",
+            "img": "./assets/images/drinks/latte-cold-hot/mocha-latte.png"
+          },
+          {
+            "id": 6,
+            "name": "Cafe Latte",
+            "price": "22 AED",
+            "img": "./assets/images/drinks/latte-cold-hot/cafe-latte.png"
+          },
+          {
+            "id": 7,
+            "name": "Classic Latte",
+            "price": "22 AED",
+            "img": "./assets/images/drinks/latte-cold-hot/classic-latte.png"
+          },
+          {
+            "id": 8,
+            "name": "Rose",
+            "price": "22 AED",
+            "img": "./assets/images/drinks/latte-cold-hot/rose.png"
+          }
+        ]
+      },
+      {
+        "category": "Crepe",
+        "items": [
+          {
+            "id": 1,
+            "name": "Nutella",
+            "price": "25 AED",
+            "img": "./assets/images/drinks/crepe/nutella.png"
+          },
+          {
+            "id": 2,
+            "name": "Lotus",
+            "price": "25 AED",
+            "img": "./assets/images/drinks/crepe/lotus.png"
+          },
+          {
+            "id": 3,
+            "name": "Pistachio",
+            "price": "28 AED",
+            "img": "./assets/images/drinks/crepe/pistachio.png"
+          },
+          {
+            "id": 4,
+            "name": "Fettuccini",
+            "price": "32 AED",
+            "img": "./assets/images/drinks/crepe/fettuccini.png"
+          },
+          {
+            "id": 5,
+            "name": "Special Crepe",
+            "price": "40 AED",
+            "img": "./assets/images/drinks/crepe/special-crepe.png"
+          }
+        ]
+      }
+    ]
   }
 ]
