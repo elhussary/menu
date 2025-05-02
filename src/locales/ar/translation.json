@@ -79,7 +79,7 @@
       }
     },
     "Mojitos": {
-      "name": "موجيتو",
+      "name": "موهيتو",
       "items": {
         "Strawberry": "فراولة",
         "Blueberry": "توت أزرق",
@@ -88,7 +88,7 @@
         "Blue Moon": "بلو مون",
         "Blue Hawaii": "بلو هاواي",
         "Watermelon": "بطيخ",
-        "Classic Mojito": "موجيتو كلاسيك"
+        "Classic Mojito": "موهيتو كلاسيك"
       }
     },
     "Milkshakes": {
@@ -123,8 +123,8 @@
     "Hot Drinks": {
       "name": "مشروبات ساخنة",
       "items": {
-        "Espresso Single": "إسبريسو مفرد",
-        "Espresso Double": "إسبريسو مزدوج",
+        "Espresso Single": "إسبريسو سنجل",
+        "Espresso Double": "إسبريسو دبل",
         "Amercano": "أمريكانو",
         "Cappuccino": "كابتشينو",
         "Cortado": "كورادو",
